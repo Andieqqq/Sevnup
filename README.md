@@ -72,8 +72,9 @@ Before using this script, make sure you have the following components installed:
    #run as follow
    gdb-multiarch
    #then run as follow to debug kernel
-   target remote :1234
+   set architecture mips
    file {here fill in the location of the two kernels} {here fill in the location of the program you need to debug(if any)}
+   target remote :1234
    ```
 
    
