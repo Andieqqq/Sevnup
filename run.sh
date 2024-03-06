@@ -30,7 +30,7 @@ echo -e "[o] Check if vmlinux-3.2.0-4-4kc-malta and debian_wheezy_mipsel_standar
 if [ -f ./img/vmlinux-3.2.0-4-4kc-malta ]; then
 	echo -e "\033[0;32m[+]\033[0m vmlinux-3.2.0-4-4kc-malta exists."
 else
-	wget -p ./img https://people.debian.org/~aurel32/qemu/mipsel/vmlinux-2.6.32-5-4kc-malta
+	wget -P ./img https://people.debian.org/~aurel32/qemu/mipsel/vmlinux-2.6.32-5-4kc-malta
 	echo "[o] vmlinux-2.6.32-5-4kc-malta is downloading..."
 fi
 
