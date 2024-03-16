@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to my script, designed specifically for Arch Linux. Other tools were not fully functional on this system, which was quite frustrating.
+Welcome to my script, designed specifically for **Arch Linux**. Other tools were not fully functional on this system, which was quite frustrating.
 
 This is officially my first time uploading my tool to GitHub. I hope you all give it a star, and feel free to raise any issues!
 
