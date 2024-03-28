@@ -8,6 +8,10 @@
 
 来自2024.1.24 N1nEmAn
 
+当前FirmAE和FAT等仿真工具非常方便，但是有时候一些新的固件需要更加高度的DIY仿真。本开源项目基于Archlinux,直接从qemu层面配置，启动即可进入文件系统，不需要自己手动操作，并且保留了高度的自定义空间。也欢迎各位贡献其他系统版本。IoTSec FoR FUN！
+
+来自2024.3.28 N1nEmAn
+
 ```
    ███████╗███████╗██╗   ██╗███╗   ██╗██╗   ██╗██████╗ 
    ██╔════╝██╔════╝██║   ██║████╗  ██║██║   ██║██╔══██╗
@@ -78,8 +82,13 @@
    file {这里填写内核的位置} {这里填写你需要调试的程序的位置（如果有）}
    target remote :1234
    ```
-
-   
+## 例子
+这里提供一个例子，方便大家参考和使用。
+![image](https://github.com/GitHubDaily/GitHubDaily/assets/118088443/70b29624-d56b-459f-aa69-0d1b7a55aeb6)
+![image](https://github.com/GitHubDaily/GitHubDaily/assets/118088443/dfc52097-8e94-48a2-834e-6eeedef28c34)
+![image](https://github.com/GitHubDaily/GitHubDaily/assets/118088443/0cf45988-7840-4657-a531-a5dd74d3f71c)
+![image](https://github.com/GitHubDaily/GitHubDaily/assets/118088443/affb3205-98ff-4952-96ab-1c719241c3f3)
+![成功复现磊科路由器漏洞](https://github.com/GitHubDaily/GitHubDaily/assets/118088443/207b386f-86aa-4f46-b62e-184ee0515575)
 
 
 
