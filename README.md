@@ -80,4 +80,15 @@ Before using this script, make sure you have the following components installed:
    
 
    if you need to debug the program running in the virtual machine, you need to break at the address inside the program, and then break at the function name, and continue over. This is the operation of gdb, so I won't go into details.
+## Example and Sth else
+The current simulation tools such as FirmAE and FAT are very convenient, but sometimes, some new firmware requires a higher level of DIY simulation. This open-source project is based on Archlinux and is configured directly from the QEMU level. It can be booted into the file system without manual operations and retains a high level of customization. Contributions of other system versions are also welcome. IoTSec FoR FUN!
+
+Here is a simple example provided for everyone's reference and convenience of use.
+
+![image](https://github.com/GitHubDaily/GitHubDaily/assets/118088443/70b29624-d56b-459f-aa69-0d1b7a55aeb6)
+![image](https://github.com/GitHubDaily/GitHubDaily/assets/118088443/dfc52097-8e94-48a2-834e-6eeedef28c34)
+![image](https://github.com/GitHubDaily/GitHubDaily/assets/118088443/0cf45988-7840-4657-a531-a5dd74d3f71c)
+![image](https://github.com/GitHubDaily/GitHubDaily/assets/118088443/affb3205-98ff-4952-96ab-1c719241c3f3)
+![netcore](https://github.com/GitHubDaily/GitHubDaily/assets/118088443/207b386f-86aa-4f46-b62e-184ee0515575)
+
 
